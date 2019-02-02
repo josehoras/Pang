@@ -54,11 +54,3 @@ for level in range(3, 4):
         
 print_banner(screen, "over")
 pygame.display.quit()
-
-#screen_array = surfarray.array3d(screen)
-#screen_array=np.transpose(screen_array, (1,0,2))
-#plt.subplot(1, 1, 1)
-#plt.imshow(screen_array)
-#plt.axis('off')
-#plt.show()
-#disparo.update(pygame.key.get_pressed())
